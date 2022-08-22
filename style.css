@@ -17,6 +17,8 @@ body {
 
 .trybewarts-login {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
@@ -31,7 +33,6 @@ body {
   width: 675px;
   margin-top: 2rem;
   padding: 1rem;
-  background-color: khaki;
   border-radius: 2rem;
 }
 
@@ -42,6 +43,8 @@ body {
 
 .form-group {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #label-content {
@@ -51,12 +54,13 @@ body {
 
 .info-form {
   margin: 0.40rem;
+  border-radius: 0.25rem;
 }
 
 #footer {
   display: flex;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 12rem;
   height: 1rem;
 }
 
@@ -72,4 +76,16 @@ body {
   padding: 1rem;
   background-color: rgb(50, 167, 145);
   border-radius: 2rem;
+}
+
+#submit-btn {
+  border-radius: 1rem;
+  background-color: rgb(50, 167, 145);
+}
+
+#login-btn {
+  border-radius: 0.25rem;
+  width: 5rem;
+  height: 1.5rem;
+  background-color: skyblue;
 }
