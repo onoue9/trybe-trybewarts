@@ -1,26 +1,23 @@
 {
-  "name": "sd-0x-project-trybewarts-rubric",
+  "name": "",
   "version": "1.0.0",
-  "description": "Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.",
+  "description": "",
   "main": "script.js",
   "scripts": {
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js, .jsx",
-    "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input",
-    "cypress:open": "cypress open",
-    "test": "cypress run",
-    "cy:browser": "cypress run --headless --browser chrome"
+    "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/betrybe/sd-0x-project-trybewarts-rubric.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/betrybe/sd-0x-project-trybewarts-rubric/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/betrybe/sd-0x-project-trybewarts-rubric#readme",
+  "homepage": "",
   "devDependencies": {
     "@david-boydell/cypress-layout": "0.0.2",
     "@types/cypress": "1.1.3",
