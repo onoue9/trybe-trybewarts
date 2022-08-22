@@ -13,19 +13,19 @@
     <img height="50" width="50" class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" />
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form class="trybewarts-login">
-      <label>Email: <input id="email" type="email" placeholder="Email" name="email"/></label>
-      <label>Senha: <input id="password" type="password" placeholder="Senha" name="senha"/></label>
-      <button type="button" onclick="handleLogin()">Entrar</button>
+      <input class="info-form" id="email" type="email" placeholder="Email" name="email"/>
+      <input class="info-form" id="password" type="password" placeholder="Senha" name="senha"/>
+      <button id="login-btn" type="button" onclick="handleLogin()">Entrar</button>
     </form>
   </header>
   <main class="main">
     <form id="evaluation-form">
       <div class="form-group">
-        <label>Nome: <input class="info-form" id="input-name" placeholder="Nome"/></label>
-        <label>Sobrenome: <input class="info-form" id="input-lastname" placeholder="Sobrenome"/></label>
+        <input class="info-form" id="input-name" placeholder="Nome"/>
+        <input class="info-form" id="input-lastname" placeholder="Sobrenome"/>
       </div>
       <div class="form-group">
-        <label>Email: <input class="info-form" id="input-email" placeholder="Email"/></label>
+        <input class="info-form" id="input-email" placeholder="Email"/>
         <select class="info-form" id="house">
           <option id="gitnoria-house" value="Gitnória">Gitnória</option>
           <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
@@ -33,34 +33,38 @@
           <option id="pytherina-house" value="Pytherina">Pytherina</option>
         </select>
       </div>
-      <label id="label-family">
-        Qual sua família?
-        <input class="info-form" type="radio" name="family" value="Frontend"/>Frontend
-        <input class="info-form" type="radio" name="family" value="Backend"/>Backend
-        <input class="info-form" type="radio" name="family" value="FullStack"/>FullStack
-      </label>
-      <label id="label-content">
-        Qual conteúdo você está com mais vontade de aprender ?
-        <label>HoFs<input class="content info-form" type="checkbox" value="HoFs" /></label>
-        <label>Jest<input class="content info-form" type="checkbox" value="Jest" /></label>
-        <label>Promises<input class="content info-form" type="checkbox" value="Promises" /></label>
-        <label>React<input class="content info-form" type="checkbox" value="React" /></label>
-        <label>SQL<input class="content info-form" type="checkbox" value="SQL" /></label>
-        <label>Python<input class="content info-form" type="checkbox" value="Python" /></label>
-      </label>
-      <label id="label-rate">
-        Como você avalia a Trybewarts?
-        <input class="info-form" type="radio" name="rate" value="1"/>1
-        <input class="info-form" type="radio" name="rate" value="2"/>2
-        <input class="info-form" type="radio" name="rate" value="3"/>3
-        <input class="info-form" type="radio" name="rate" value="4"/>4
-        <input class="info-form" type="radio" name="rate" value="5"/>5
-        <input class="info-form" type="radio" name="rate" value="6"/>6
-        <input class="info-form" type="radio" name="rate" value="7"/>7
-        <input class="info-form" type="radio" name="rate" value="8"/>8
-        <input class="info-form" type="radio" name="rate" value="9"/>9
-        <input class="info-form" type="radio" name="rate" value="10"/>10
-      </label>
+      <div class="form-group">
+        <label id="label-family">
+          Qual sua família?
+          <input class="info-form" type="radio" name="family" value="Frontend"/>Frontend
+          <input class="info-form" type="radio" name="family" value="Backend"/>Backend
+          <input class="info-form" type="radio" name="family" value="FullStack"/>FullStack
+        </label>
+        <label id="label-content">
+          Qual conteúdo você está com mais vontade de aprender ?
+          <label>HoFs<input class="content info-form" type="checkbox" value="HoFs" /></label>
+          <label>Jest<input class="content info-form" type="checkbox" value="Jest" /></label>
+          <label>Promises<input class="content info-form" type="checkbox" value="Promises" /></label>
+          <label>React<input class="content info-form" type="checkbox" value="React" /></label>
+          <label>SQL<input class="content info-form" type="checkbox" value="SQL" /></label>
+          <label>Python<input class="content info-form" type="checkbox" value="Python" /></label>
+        </label>
+      </div>
+      <div class="form-group">
+        <label id="label-rate">
+          Como você avalia a Trybewarts?
+          <input class="info-form" type="radio" name="rate" value="1"/>1
+          <input class="info-form" type="radio" name="rate" value="2"/>2
+          <input class="info-form" type="radio" name="rate" value="3"/>3
+          <input class="info-form" type="radio" name="rate" value="4"/>4
+          <input class="info-form" type="radio" name="rate" value="5"/>5
+          <input class="info-form" type="radio" name="rate" value="6"/>6
+          <input class="info-form" type="radio" name="rate" value="7"/>7
+          <input class="info-form" type="radio" name="rate" value="8"/>8
+          <input class="info-form" type="radio" name="rate" value="9"/>9
+          <input class="info-form" type="radio" name="rate" value="10"/>10
+        </label>
+      </div>
       <label class="textarea info-form">Deixe seu comentário:
       </label>
       <textarea id="textarea" maxlength="500" rows="10"></textarea>
