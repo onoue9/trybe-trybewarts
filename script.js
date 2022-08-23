@@ -52,7 +52,7 @@ const handleSend = () => {
   <br>
   <br>Rate: ${rate}
   <br>
-  <br>Textarea: ${textarea}
+  <br>Commentary: ${textarea}
   <br>
   <br>Seja bem vindo!`;
   div.appendChild(p);
