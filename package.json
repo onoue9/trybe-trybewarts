@@ -29,7 +29,7 @@
     "eslint-config-trybe-fundamentals": "1.1.0",
     "eslint-plugin-cypress": "2.11.2",
     "eslint-plugin-import": "2.22.1",
-    "minimist": "1.2.5",
+    "minimist": "1.2.6",
     "mocha": "8.3.0",
     "mochawesome": "6.2.2",
     "mochawesome-merge": "4.2.0",
