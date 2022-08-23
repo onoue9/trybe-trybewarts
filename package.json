@@ -1,23 +1,21 @@
 {
-  "name": "",
+  "name": "Trybe-Trybewarts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Página de preenchimento de feedback sobre a trybewarts.",
+  "author": "Filipe Onoue",
+  "homepage": "https://github.com/onoue99/trybe-trybewarts",
   "main": "script.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onoue9/trybe-trybewarts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onoue9/trybe-trybewarts/issues"
+  },
   "scripts": {
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js, .jsx",
     "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input"
   },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
   "devDependencies": {
     "@david-boydell/cypress-layout": "0.0.2",
     "@types/cypress": "1.1.3",
